@@ -53,10 +53,4 @@ public class Main
         System.out.println("\nBehold the enchanted coins, imbued with the essence of the cosmos!");
         System.out.println("May these magical coins bring fortune and wonder to your journey, brave adventurer.");
     }
-
-    private static void performTransmutation(int quantity, String denomination) {
-        if (quantity != 0) {
-            System.out.println("\uD83D\uDD2E " + quantity + " " + denomination); // Utilizing mystical emojis for added enchantment!
-        }
-    }
 }
